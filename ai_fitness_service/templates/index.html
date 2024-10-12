@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hypertune your fitness goals - Powered by AI</title>
+    <meta name="description" content="Achieve your fitness goals with AI-powered assistance. Personalized plans and tracking.">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="background"></div>
+    <header>
+        <div class="logo">
+            <img src="{{ url_for('static', filename='images/logo.png') }}" alt="Fitness AI Logo">
+        </div>
+    </header>
+
+    <main>
+        <section id="hero">
+            <h1>Hypertune your fitness goals</h1>
+            <p>Powered by AI</p>
+            <form id="signup-form">
+                <input type="email" placeholder="Enter your email" required>
+                <button type="submit">Get Started</button>
+            </form>
+        </section>
+
+        <section id="features">
+            <h2>Our Features</h2>
+            <div class="feature-grid">
+                <div class="feature-item">
+                    <h3>Get a personalized meal plan</h3>
+                    <p>Input information based on your fitness goals, and receive a uniquely generated meal plan.</p>
+                </div>
+                <div class="feature-item">
+                    <h3>Get a personalized workout plan</h3>
+                    <p>Input information based on your fitness goals, and receive a uniquely generated workout plan.</p>
+                </div>
+                <div class="feature-item">
+                    <h3>Fat Burner Calculator</h3>
+                    <p>Calculate fat burned based off some information like age, heart rate, height, weight, and time.</p>
+                </div>
+                <div class="feature-item">
+                    <h3>AI Videos</h3>
+                    <p>Create AI videos from photos</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 HyperTune Fitness AI. All rights reserved.</p>
+    </footer>
+</body>
+</html>
